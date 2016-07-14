@@ -1,3 +1,9 @@
+################## Documentaion Section ###############
+#  This program counts the traffic in a fourlane road and assign priority to the roads based on the count
+#  Dynamic timing is also done
+#  Author- Sourav Sasidharan
+
+
 import numpy as np
 import cv2
 import RPi.GPIO as GPIO
@@ -13,6 +19,7 @@ GPIO.setup(11,GPIO.OUT)
 GPIO.setup(13,GPIO.OUT)
 GPIO.setup(15,GPIO.OUT)
 GPIO.setup(8,GPIO.OUT)
+
 GPIO.setup(10,GPIO.OUT)
 GPIO.setup(12,GPIO.OUT)
 GPIO.setup(21,GPIO.OUT)
